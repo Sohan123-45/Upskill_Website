@@ -26,7 +26,6 @@ The repository maintains a clean and organized folder hierarchy:
 web-page/
 │
 ├── pages/                 # Contains all HTML files
-│   ├── index.html         # Homepage and Login (Entry Point)
 │   ├── about.html         # About Us page
 │   ├── courses.html       # Courses catalog and details
 │   ├── design.html        # Design templates/portfolio
@@ -50,6 +49,7 @@ web-page/
 │   ├── courses.xml        
 │   └── courses.xsd
 │
+├── index.html             # Homepage and Login (Entry Point)
 └── README.md              # Project documentation
 ```
 
