@@ -23,7 +23,7 @@
 The repository maintains a clean and organized folder hierarchy:
 
 ```text
-web-page/
+STATIC_WEBPAGE_ASSIGNMENT-1
 │
 ├── pages/                 # Contains all HTML files
 │   ├── about.html         # About Us page
