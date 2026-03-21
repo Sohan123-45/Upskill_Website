@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="courses.xsd">
+
+    <course>
+        <id>101</id>
+        <name>Complete AI Automation And Agentic AI Bootcamp With n8n</name>
+        <duration>28 hours</duration>
+        <rating>4.5</rating>
+        <instructor>KRISHAI Technologies Private Limited</instructor>
+        <price>479</price>
+        <oldPrice>799</oldPrice>
+    </course>
+
+    <course>
+        <id>102</id>
+        <name>The AI Engineer Course 2026: Complete AI Engineer Bootcamp</name>
+        <duration>29.5 hours</duration>
+        <rating>4.6</rating>
+        <instructor>365 Careers</instructor>
+        <price>479</price>
+        <oldPrice>3000</oldPrice>
+    </course>
+
+    <course>
+        <id>103</id>
+        <name>Intro to AI Agents and Agentic AI</name>
+        <duration>2 hours</duration>
+        <rating>4.5</rating>
+        <instructor>365 Careers</instructor>
+        <price>479</price>
+        <oldPrice>799</oldPrice>
+    </course>
+
+    <course>
+        <id>104</id>
+        <name>AI for Cyber Security: Threat Detection, SOC Automation</name>
+        <duration>23.5 hours</duration>
+        <rating>4.6</rating>
+        <instructor>Selfcode Academy</instructor>
+        <price>479</price>
+        <oldPrice>3000</oldPrice>
+    </course>
+
+</courses>

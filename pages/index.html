@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>UPSKILL</title> 
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../styles/style.css"> 
+</head> 
+<body> 
+    <div class="main"> 
+        <!-- NAVBAR -->
+        <div class="navbar"> 
+            <div class="icon"> 
+                <h2 class="logo">Upskill</h2> 
+            </div> 
+            <div class="menu"> 
+                <ul> 
+                    <li><a href="index.html">HOME</a></li> 
+                    <li><a href="about.html">ABOUT</a></li> 
+                    <li><a href="courses.html">COURSES</a></li> 
+                    <li><a href="design.html">DESIGN</a></li> 
+                    <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div> 
+            <div class="search"> 
+                <input class="srch" type="search" name="" placeholder="Type to text"> 
+                <a href="#"><button class="btn">Search</button></a> 
+            </div> 
+        </div> 
+
+        <!-- BODY -->
+        <div class="content">        
+            <h1><span>E-Learning Platform</span></h1> 
+            <p class="par">Discover the most exciting online courses</p> 
+            <button class="cn"><a href="courses.html">JOIN US</a></button> 
+
+            <!-- LOGIN -->
+            <div class="form"> 
+                <h2>Login Here</h2> 
+                <input id="name" type="text" name="Name" placeholder="Enter Name Here" required>
+                <input id="email" type="email" name="email" placeholder="Enter Email Here"> 
+                <span class="error" id="emailerror"></span>
+                <input id="password" type="password" name="password" placeholder="Enter Password Here"> 
+                <span class="error" id="passworderror"></span>
+                <input id="confirmPassword" type="password" name="ConfirmPassword" placeholder="Confirm Password">
+                <span class="error" id="confirmpassworderror"></span>
+                <button onclick="form_submit()" class="btnn">Login</button> 
+                <p class="liw"><b>Or</b> Log in with</p> 
+                <div class="icons"> 
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon> </a> 
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon> </a> 
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon> </a> 
+                    <a href="#"><ion-icon name="logo-google"></ion-icon> </a> 
+                    <a href="#"><ion-icon name="logo-Skype"></ion-icon> </a> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <!-- COURSES -->
+    <div class="heading">Top courses in <a href="courses.html" target="_blank">Artificial Intelligence(AI)</a></div>
+    <div class="courses">
+        <a href="courses.html#course1">
+            <div class="course">
+                    <div class="img"><img src="../images/s1.jpg" alt=""></div>
+                    <div class="course-content">
+                    <p class="course-title">Complete AI Automation And <br> Agentic AI Bootcamp With...</p>
+                    <p class="source">KRISHAI Technologies Private Limited...</p>
+                    <div class="rating">
+                        4.5
+                        <i class="fa-solid fa-star"></i>         
+                        <i class="fa-solid fa-star"></i>      
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>    
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="raters">(457)</span>
+                    </div>
+                    <p class="price">₹479 <span class="old-price"><s>₹799</s></span></p>
+                    <div class="extra-info">
+                        <button class="premium">Premium</button>
+                        <button class="bestseller">Bestseller</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="courses.html#course2">
+            <div class="course">
+                <div class="img"><img src="../images/s2.jpg" alt=""></div>
+                <div class="course-content">
+                    <p class="course-title">The AI Engineer Course <br> 2026: Complete AI Engine...</p>
+                    <p class="source">365 Careers</p>
+                    <p class="rating">
+                        4.6
+                        <i class="fa-solid fa-star"></i>         
+                        <i class="fa-solid fa-star"></i>      
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>    
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="raters">(15,870)</span>
+                    </p>
+                    <p class="price">₹479 <span class="old-price"><s>₹3,000</s></span></p>
+                    <div class="extra-info">
+                        <button class="premium">Premium</button>
+                        <button class="bestseller">Bestseller</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="courses.html#course3">
+            <div class="course">
+                <div class="img"><img src="../images/s3.jpg" alt=""></div>
+                <div class="course-content">
+                    <p class="course-title">Intro to AI Agents and <br>Agentic AI</p>
+                    <p class="source">365 Careers</p>
+                    <p class="rating">
+                        4.5
+                        <i class="fa-solid fa-star"></i>         
+                        <i class="fa-solid fa-star"></i>      
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>    
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="raters">(30,892)</span>
+                    </p>
+                    <p class="price">₹479 <span class="old-price"><s>₹799</s></span></p>
+                    <div class="extra-info">
+                        <button class="premium">Premium</button>
+                        <button class="bestseller">Bestseller</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="courses.html#course4">
+            <div class="course">
+                <div class="img"><img src="../images/s4.jpg" alt=""></div>
+                <div class="course-content">
+                    <p class="course-title">AI for Cyber Security : Threat <br>Detection, SOC Automation</p>
+                    <p class="source">Selfcode Academy</p>
+                    <p class="rating">
+                        4.6
+                        <i class="fa-solid fa-star"></i>         
+                        <i class="fa-solid fa-star"></i>      
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>    
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="raters">(185)</span>
+                    </p>
+                    <p class="price">₹479 <span class="old-price"><s>₹799</s></span></p>
+                    <div class="extra-info">
+                        <button class="premium">Premium</button>
+                        <button class="bestseller">Bestseller</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="login-msg">
+        <p>Login Successfully</p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2 class="logo">Upskill</h2> 
+        <p>© 2026 Upskill, Inc.</p>
+        <p class="cookie">Cookie Settings</p>
+        <p class="lang">English</p>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="../scripts/script.js"></script> 
+</body> 
+</html>
