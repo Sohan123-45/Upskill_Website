@@ -126,11 +126,8 @@ ul li a:hover{
     border-radius: 10px;
     cursor: pointer;
     transition: .4s ease;
-}
-.content .cn a{
     text-decoration: none;
     color: #000;
-    transition: .3s ease;
 }
 .cn:hover{
     background-color: #fff;
