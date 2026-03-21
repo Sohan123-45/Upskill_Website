@@ -33,3 +33,8 @@ function form_submit(){
         },1000);
     }
 }
+
+function focusForm(){
+    var nameInput=document.getElementById("name");
+    nameInput.focus();
+}
