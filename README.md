@@ -77,8 +77,3 @@ This project does not require any backend server or build process to run. Follow
 - **Home Page (`index.html`)**: Features the primary layout, quick course highlights, and the login area. 
 - **Courses Page (`courses.html`)**: View the detailed breakdown of the AI courses, expanding on their structure and duration. Clicking "Enroll" provides visual feedback.
 - **Navigation Navbar**: Allows intuitive routing throughout the platform. 
-
-## 👨‍🎓 Author Information
-
-**Student Name:** Sohan
-**Module / Subject:** WEB PROGRAMMING
